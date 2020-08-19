@@ -1,14 +1,11 @@
 import express from 'express';
-//40 min
+
 const app = express();
 
-app.get('/users', (request, response) => {
-    const data =[
-        {
-            "nome": "jonatan"
-        }
-    ]
-    return response.json([data]);
+app.use(express.json()); //para receber e usar json no express
+
+app.get('/', (request, response) => {
+    return response.json({ message: 'Hello World!' });
 });
 
 app.listen(3333);
