@@ -55,6 +55,5 @@ const TeacherItem: React.FC<TeacherItemProps> = ({teacher}) => {
         </article>
     )
 }
-// commit só para ficar colorido a grade
 
 export default TeacherItem;
