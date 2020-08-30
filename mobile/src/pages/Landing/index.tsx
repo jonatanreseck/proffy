@@ -17,6 +17,9 @@ function Landing(){
         navigate('GiveClasses');
     }
 
+    function handleNavigateToStydyPage(){
+        navigate('Study');
+    }
 
     return (
         <View style={styles.container} >
@@ -28,7 +31,7 @@ function Landing(){
             </Text>
             <View style={styles.buttonContainer}>
                 <RectButton 
-                    onPress={handleNavigateToGiveClassesPage}
+                    onPress={handleNavigateToStydyPage}
                     style={[styles.button, 
                     styles.buttonPrimary]}
                 >
@@ -52,5 +55,5 @@ function Landing(){
         </View>
     );
 }
-//52 minutes
+
 export default Landing;

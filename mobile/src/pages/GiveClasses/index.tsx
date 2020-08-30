@@ -40,5 +40,3 @@ function GiveClasees() {
 }
 
 export default GiveClasees;
-
-// 1:14:00
