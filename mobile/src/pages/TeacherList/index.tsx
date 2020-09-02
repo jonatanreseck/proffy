@@ -56,8 +56,7 @@ function TeacherList() {
                 <TeacherItem />
                 <TeacherItem />
                 <TeacherItem />
-                <TeacherItem />
-                <TeacherItem />
+
             </ScrollView>
         </View>
     )
