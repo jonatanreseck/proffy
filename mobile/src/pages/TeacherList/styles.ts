@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     },
 
     searchForm: {
-        marginBottom: 5
+        marginBottom: 24
     },
 
     label: {
